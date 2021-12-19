@@ -11,7 +11,7 @@ pipeline{
 	    stage('gitclone') {
 
 			steps {
-				git 'https://github.com/kevmacp/Capstone.git'
+				git 'https://github.com/shazforiot/nodeapp_test.git'
 			}
 		}
 
